@@ -36,3 +36,11 @@
 VGG-19 Convolutional Neural Network - *VGG means Visual Geometry Group at University of Oxford. The Convolutional neural networks they developed for winning the ImageNet Challenge 2014 in localization and classification tasks are known as VGG nets. VGG-19 is a convolutional neural network that is 19 layers deep. You can load a pretrained version of the network trained on more than a million images from the ImageNet database. The pretrained network can classify images into 1000 object categories such as keyboard, mouse, pencil, and many animals. As a result, the network has learned rich feature representations for a wide range of images. The network has an image input size of 224-by-224.* 
 
 ### A glimpse of the Web App
+
+![ss0](https://user-images.githubusercontent.com/68144553/88221675-750fb580-cc82-11ea-8677-69f4c27e1d8b.JPG)
+![ss1](https://user-images.githubusercontent.com/68144553/88221687-76d97900-cc82-11ea-8a7e-046e1565c4f8.JPG)
+![ss2](https://user-images.githubusercontent.com/68144553/88221690-77720f80-cc82-11ea-8d30-0607b1e942aa.JPG)
+![ss3](https://user-images.githubusercontent.com/68144553/88221691-780aa600-cc82-11ea-9534-e3142f9ba828.JPG)
+![ss4](https://user-images.githubusercontent.com/68144553/88221692-78a33c80-cc82-11ea-8d5b-196b51fe3a47.JPG)
+![ss5](https://user-images.githubusercontent.com/68144553/88221695-793bd300-cc82-11ea-8311-75abe80247df.JPG)
+![ss6](https://user-images.githubusercontent.com/68144553/88221698-7a6d0000-cc82-11ea-8b88-797079097fcb.JPG)
