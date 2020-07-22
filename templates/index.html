@@ -1,0 +1,36 @@
+{% extends "base.html" %} {% block content %}
+
+<center><h4 style="color:#ff4444;"><b>
+VGG-19 Convolutional Neural Network
+</b></h4></center>
+
+<div>
+    <form id="upload-file" method="post" enctype="multipart/form-data" style="position:absolute;left:1000px;top:330px;">
+		<label for="imageUpload" class="upload-label" style="background-color:red;">
+            Upload
+        </label>
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+    </form>
+    <div class="img" style="position:absolute;left:420px;top:285px;">
+			<img src="{{ url_for('static', filename='image/question_mark.jpg') }}">
+	</div>
+    <div class="image-section" style="display:none;">
+        <div class="img-preview" style="position:absolute;left:400px;top:270px;">
+            <div id="imagePreview">
+            </div>
+        </div>
+        <div style="position:absolute;left:1000px;top:330px;">
+            <button type="button" class="btn btn-primary btn-danger" id="btn-predict" style="height:50px;width:130px;">&nbsp;&nbsp;&nbsp;Predict&nbsp;&nbsp;&nbsp;</button>
+        </div>
+    </div>
+   
+
+    <h4 id="result" style="position:absolute;left:950px;top:460;color:#ff4444;font-weight:bold;">
+        <span> </span>
+    </h4>
+
+</div>
+
+
+
+{% endblock %}
