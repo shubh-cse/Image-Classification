@@ -1,4 +1,4 @@
-# Image-Classification
+# Image Classification
 
 *A Deep Learning Web App built with Flask*
 
